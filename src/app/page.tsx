@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          {/* Get started by editing&nbsp; */}
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
@@ -15,7 +15,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            {/* By{' '} */}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -27,6 +27,10 @@ export default function Home() {
           </a>
         </div>
       </div>
+
+      <p>1番目の変更</p>
+      <p>2番目の変更</p>
+      <p>3番目の変更</p>
 
       <div className={styles.center}>
         <Image
@@ -46,9 +50,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
+          {/* <h2>
             Docs <span>-&gt;</span>
-          </h2>
+          </h2> */}
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
 
@@ -91,5 +95,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
