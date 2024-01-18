@@ -28,6 +28,8 @@ export default function Home() {
         </div>
       </div>
 
+      <p>1番目の変更</p>
+
       <div className={styles.center}>
         <Image
           className={styles.logo}
