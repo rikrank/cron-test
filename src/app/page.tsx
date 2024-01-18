@@ -29,6 +29,8 @@ export default function Home() {
       </div>
 
       <p>1番目の変更</p>
+      <p>2番目の変更</p>
+      <p>3番目の変更</p>
 
       <div className={styles.center}>
         <Image
